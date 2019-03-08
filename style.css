@@ -19,7 +19,7 @@ html,body{
     font-size: 1.1em !important;
 }
 
-.carousel-inner img{
+.carousel-inner {
     width: 100%;
     height: 100%;
 }
@@ -139,7 +139,7 @@ footer{
         font-size: 2.5em;
         padding: 1.2rem;
     }
-    .carousel-inner img{
+    .carousel-inner {
         width: 100%;
         height: 100%;
     }
@@ -169,7 +169,7 @@ footer{
         font-size: 2em;
         padding: .7rem;
     }
-    .carousel-inner img{
+    .carousel-inner {
         width: 100%;
         height: 100%;
     }
