@@ -17,6 +17,12 @@ html,body{
 
 .nav-link{
     font-size: 1.1em !important;
+
+}
+.nav-link:hover{
+    text-shadow: none;
+    border: none;
+    border-radius: 2px;
 }
 
 .carousel-inner {
