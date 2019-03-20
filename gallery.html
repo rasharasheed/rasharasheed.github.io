@@ -92,10 +92,13 @@
     </div>
 </div>
 <style>
-    footer{
+
+    #footer{
         background-color: #3f3f3f;
         color: #d5d5d5;
-        padding-top: 2rem;
+        padding-top: 1rem;
+        position: fixed;
+        bottom: 0;
     }
     .social a{
         font-size: 4.5em;
@@ -113,14 +116,14 @@
     .fa-linkedin{
         color: #0077B5;
     }
-    .fa-twitter{
-        color: #1DA1F2;
+    .fa-github{
+        color: #4078c0;
     }
     .fa-facebook:hover,
     .fa-instagram:hover,
     .fa-google-plus-g:hover,
     .fa-linkedin:hover,
-    .fa-twitter:hover{
+    .fa-github:hover{
         color: #d5d5d5;
     }
     @media (max-width:992px) {
@@ -145,8 +148,7 @@
 
 </style>
 
-<footer>
-    <div class="container-fluid ">
+    <div class="container-fluid" id="footer">
         <div class="row text-center ">
             <div class="col-12">
                 <h1 style="font-size: 3vw">Connect</h1>
@@ -160,6 +162,6 @@
             </div>
         </div>
     </div>
-</footer>
+
 </body>
 </html>
