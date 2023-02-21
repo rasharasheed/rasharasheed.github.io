@@ -193,23 +193,25 @@
             <hr class="my-6 " style="margin-top: -8px"  >
             <div class="col-xs-12 col-md-6 " style="float: left"> <p>Email  : rasharasheedr99@gmail.com</p>
             <h1 style=" color: crimson;font-size: 2vw; font-family: Cambria"><img src="Curved-Arrow.gif" class="gif"> &nbsp;&nbsp;You can ping me here  </h1>
-            <div >
+            <div>
 
-                <form class="gform" data-email="rasharasheedr99@gmail.com"
-                      action="https://script.google.com/macros/s/AKfycbzGkD0Qm6WNuifdNveNA9zlyDu68JZrbZnFn7WA/exec" method="post" >
+                <!-- <form class="gform" data-email="rasharasheedr99@gmail.com"
+           action=" method="post"> -->
+                <form action="mailto:rasharasheedr99@gmail.com" method="post" enctype="text/plain">
+                    
+                <input type="text" name="name" placeholder="Your Name"><br>
 
-                    <input type="text" name="name" placeholder="Your Name" ><br>
+                <input type="text" name="email" placeholder="Your Email"><br>
 
-                    <input type="text" name="email" placeholder="Your Email"><br>
-
-                    <textarea   name="message"  placeholder="Message" cols="40" rows="4" style="overflow:scroll; " ></textarea> <br>
-                    <button type="submit"  style="color: white;font-family: Calibri;background-color: green;text-align: center" >SEND</button>
-                    <button type="reset"  style="color: white;font-family: Calibri;background-color: green;text-align: center">RESET</button>
-                    <div style="display:none;background-color: #1c7430;color: white" class="thankyou_message">
-                        <!-- You can customize the thankyou message by editing the code below -->
-                        <p><em>Thank You</em> I will get back to you soon!
-                        </p>
-                    </div>
+                <textarea name="message" placeholder="Message" cols="40" rows="4" style="overflow:scroll; "></textarea> <br>
+                <button type="submit" value="Send" style="color: white;font-family: Calibri;background-color: green;text-align: center">SEND</button>
+                <button type="reset" value="Reset" style="color: white;font-family: Calibri;background-color: green;text-align: center">RESET</button>
+                <div style="display:none;background-color: #1c7430;color: white" class="thankyou_message">
+                    <!-- You can customize the thankyou message by editing the code below -->
+                    <p>
+                        <em>Thank You</em> I will get back to you soon!
+                    </p>
+                </div>
                 </form>
             </div>
             </div>
